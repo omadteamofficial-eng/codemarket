@@ -659,7 +659,7 @@ async def topup_curr(message: types.Message, state: FSMContext):
     if "UZS" in message.text:
         curr, rate, card, holder = "UZS", rates['uzs'], CARD_UZS, CARD_NAME
     elif "USD" in message.text:
-        curr, rate, card, holder = "USD", rates['usd'], CARD_VISA, "Visa Holder"
+        curr, rate, card, holder = "USD", rates['usd'], CARD_VISA, "Sayfullayev Sherali"
     else: 
         return await message.answer("⚠️ Iltimos, tugmalardan birini tanlang!")
     
